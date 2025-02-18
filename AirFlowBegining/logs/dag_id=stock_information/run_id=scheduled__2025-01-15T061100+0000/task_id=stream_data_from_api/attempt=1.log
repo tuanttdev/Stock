@@ -1,0 +1,18 @@
+[2025-01-15T06:12:01.602+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-15T06:12:01.613+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_information.stream_data_from_api scheduled__2025-01-15T06:11:00+00:00 [queued]>
+[2025-01-15T06:12:01.621+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_information.stream_data_from_api scheduled__2025-01-15T06:11:00+00:00 [queued]>
+[2025-01-15T06:12:01.623+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-15T06:12:01.635+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): stream_data_from_api> on 2025-01-15 06:11:00+00:00
+[2025-01-15T06:12:01.641+0000] {standard_task_runner.py:72} INFO - Started process 6535 to run task
+[2025-01-15T06:12:01.643+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'stock_information', 'stream_data_from_api', 'scheduled__2025-01-15T06:11:00+00:00', '--job-id', '955', '--raw', '--subdir', 'DAGS_FOLDER/vnstock_stream.py', '--cfg-path', '/tmp/tmphyao0i8x']
+[2025-01-15T06:12:01.647+0000] {standard_task_runner.py:105} INFO - Job 955: Subtask stream_data_from_api
+[2025-01-15T06:12:01.685+0000] {task_command.py:467} INFO - Running <TaskInstance: stock_information.stream_data_from_api scheduled__2025-01-15T06:11:00+00:00 [running]> on host 453ac4defedc
+[2025-01-15T06:12:01.769+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='TuanDz' AIRFLOW_CTX_DAG_ID='stock_information' AIRFLOW_CTX_TASK_ID='stream_data_from_api' AIRFLOW_CTX_EXECUTION_DATE='2025-01-15T06:11:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-15T06:11:00+00:00'
+[2025-01-15T06:12:01.772+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-15T06:12:02.223+0000] {data_explorer.py:64} WARNING - Thông tin niêm yết & giao dịch sẽ được truy xuất từ TCBS
+[2025-01-15T06:12:02.560+0000] {python.py:240} INFO - Done. Returned value was: [['TCB', 25250, 21950, 23600, 'STOCK', 'HSX', '', 7045021622, 'STOCK', 8424683, 'Ngân hàng Thương mại Cổ phần Kỹ thương Việt Nam', 23600, '', '2025-01-15', 23850, 200, 3038800, 72306, 23794.26089245755, 23900, 23650, 's', 156700, 156700, 0, 1590552461, 72306.26499999978, 30388, 23600, 23850, 99800, 23800, 96300, 23750, 280900, 23900, 166400, 23950, 218600, 24000, 746700, '2025-01-15 06:12:02']]
+[2025-01-15T06:12:02.587+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-15T06:12:02.589+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=stock_information, task_id=stream_data_from_api, run_id=scheduled__2025-01-15T06:11:00+00:00, execution_date=20250115T061100, start_date=20250115T061201, end_date=20250115T061202
+[2025-01-15T06:12:02.624+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-15T06:12:02.643+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-15T06:12:02.647+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

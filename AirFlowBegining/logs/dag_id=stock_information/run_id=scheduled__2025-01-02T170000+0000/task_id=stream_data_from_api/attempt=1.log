@@ -1,0 +1,27 @@
+[2025-01-09T15:49:23.454+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-09T15:49:23.473+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_information.stream_data_from_api scheduled__2025-01-02T17:00:00+00:00 [queued]>
+[2025-01-09T15:49:23.484+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_information.stream_data_from_api scheduled__2025-01-02T17:00:00+00:00 [queued]>
+[2025-01-09T15:49:23.486+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-09T15:49:23.502+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): stream_data_from_api> on 2025-01-02 17:00:00+00:00
+[2025-01-09T15:49:23.509+0000] {standard_task_runner.py:72} INFO - Started process 193 to run task
+[2025-01-09T15:49:23.515+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'stock_information', 'stream_data_from_api', 'scheduled__2025-01-02T17:00:00+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/vnstock_stream.py', '--cfg-path', '/tmp/tmph_o6e2k_']
+[2025-01-09T15:49:23.519+0000] {standard_task_runner.py:105} INFO - Job 46: Subtask stream_data_from_api
+[2025-01-09T15:49:23.572+0000] {task_command.py:467} INFO - Running <TaskInstance: stock_information.stream_data_from_api scheduled__2025-01-02T17:00:00+00:00 [running]> on host 453ac4defedc
+[2025-01-09T15:49:23.656+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='TuanDz' AIRFLOW_CTX_DAG_ID='stock_information' AIRFLOW_CTX_TASK_ID='stream_data_from_api' AIRFLOW_CTX_EXECUTION_DATE='2025-01-02T17:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-02T17:00:00+00:00'
+[2025-01-09T15:49:23.659+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-09T15:50:24.033+0000] {data_explorer.py:64} WARNING - Thông tin niêm yết & giao dịch sẽ được truy xuất từ TCBS
+[2025-01-09T15:51:25.182+0000] {data_explorer.py:64} WARNING - Thông tin niêm yết & giao dịch sẽ được truy xuất từ TCBS
+[2025-01-09T15:52:33.158+0000] {data_explorer.py:64} WARNING - Thông tin niêm yết & giao dịch sẽ được truy xuất từ TCBS
+[2025-01-09T15:53:34.324+0000] {data_explorer.py:64} WARNING - Thông tin niêm yết & giao dịch sẽ được truy xuất từ TCBS
+[2025-01-09T15:54:34.871+0000] {data_explorer.py:64} WARNING - Thông tin niêm yết & giao dịch sẽ được truy xuất từ TCBS
+[2025-01-09T15:55:35.557+0000] {data_explorer.py:64} WARNING - Thông tin niêm yết & giao dịch sẽ được truy xuất từ TCBS
+[2025-01-09T15:56:36.361+0000] {data_explorer.py:64} WARNING - Thông tin niêm yết & giao dịch sẽ được truy xuất từ TCBS
+[2025-01-09T15:57:37.039+0000] {data_explorer.py:64} WARNING - Thông tin niêm yết & giao dịch sẽ được truy xuất từ TCBS
+[2025-01-09T15:58:37.530+0000] {data_explorer.py:64} WARNING - Thông tin niêm yết & giao dịch sẽ được truy xuất từ TCBS
+[2025-01-09T15:58:39.234+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2025-01-09T15:58:39.237+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-01-09T15:58:39.240+0000] {process_utils.py:132} INFO - Sending 15 to group 193. PIDs of all processes in the group: [193]
+[2025-01-09T15:58:39.242+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 193
+[2025-01-09T15:58:39.242+0000] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-01-09T15:58:39.261+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-09T15:58:39.295+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=193, status='terminated', exitcode=0, started='15:49:22') (193) terminated with exit code 0

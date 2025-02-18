@@ -1,0 +1,5 @@
+ghi task cần làm cho project chứng khoán
+1. set up airflow on docker -- done
+2. get stock price (TCB) in 1 year -- in progress
+3. insert data into sql server database -- in progress
+

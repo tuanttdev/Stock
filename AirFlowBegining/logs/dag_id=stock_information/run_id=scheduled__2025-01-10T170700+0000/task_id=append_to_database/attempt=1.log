@@ -1,0 +1,18 @@
+[2025-01-10T17:08:04.746+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-10T17:08:04.759+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_information.append_to_database scheduled__2025-01-10T17:07:00+00:00 [queued]>
+[2025-01-10T17:08:04.767+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_information.append_to_database scheduled__2025-01-10T17:07:00+00:00 [queued]>
+[2025-01-10T17:08:04.769+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-10T17:08:04.781+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): append_to_database> on 2025-01-10 17:07:00+00:00
+[2025-01-10T17:08:04.788+0000] {standard_task_runner.py:72} INFO - Started process 1042 to run task
+[2025-01-10T17:08:04.790+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'stock_information', 'append_to_database', 'scheduled__2025-01-10T17:07:00+00:00', '--job-id', '129', '--raw', '--subdir', 'DAGS_FOLDER/vnstock_stream.py', '--cfg-path', '/tmp/tmpim86en0z']
+[2025-01-10T17:08:04.795+0000] {standard_task_runner.py:105} INFO - Job 129: Subtask append_to_database
+[2025-01-10T17:08:04.832+0000] {task_command.py:467} INFO - Running <TaskInstance: stock_information.append_to_database scheduled__2025-01-10T17:07:00+00:00 [running]> on host 453ac4defedc
+[2025-01-10T17:08:04.905+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='TuanDz' AIRFLOW_CTX_DAG_ID='stock_information' AIRFLOW_CTX_TASK_ID='append_to_database' AIRFLOW_CTX_EXECUTION_DATE='2025-01-10T17:07:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-10T17:07:00+00:00'
+[2025-01-10T17:08:04.908+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-10T17:08:20.719+0000] {logging_mixin.py:190} INFO - Lỗi kết nối db: ('HYT00', '[HYT00] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')
+[2025-01-10T17:08:20.721+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-10T17:08:20.729+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-10T17:08:20.730+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=stock_information, task_id=append_to_database, run_id=scheduled__2025-01-10T17:07:00+00:00, execution_date=20250110T170700, start_date=20250110T170804, end_date=20250110T170820
+[2025-01-10T17:08:20.757+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-10T17:08:20.771+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-10T17:08:20.775+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

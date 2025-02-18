@@ -1,0 +1,22 @@
+[2025-01-16T06:58:04.207+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-16T06:58:04.224+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_information.append_to_database scheduled__2025-01-16T06:57:00+00:00 [queued]>
+[2025-01-16T06:58:04.234+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_information.append_to_database scheduled__2025-01-16T06:57:00+00:00 [queued]>
+[2025-01-16T06:58:04.237+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-16T06:58:04.252+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): append_to_database> on 2025-01-16 06:57:00+00:00
+[2025-01-16T06:58:04.260+0000] {standard_task_runner.py:72} INFO - Started process 7887 to run task
+[2025-01-16T06:58:04.264+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'stock_information', 'append_to_database', 'scheduled__2025-01-16T06:57:00+00:00', '--job-id', '1945', '--raw', '--subdir', 'DAGS_FOLDER/vnstock_stream.py', '--cfg-path', '/tmp/tmpkej9lk82']
+[2025-01-16T06:58:04.267+0000] {standard_task_runner.py:105} INFO - Job 1945: Subtask append_to_database
+[2025-01-16T06:58:04.317+0000] {task_command.py:467} INFO - Running <TaskInstance: stock_information.append_to_database scheduled__2025-01-16T06:57:00+00:00 [running]> on host 453ac4defedc
+[2025-01-16T06:58:04.404+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='TuanDz' AIRFLOW_CTX_DAG_ID='stock_information' AIRFLOW_CTX_TASK_ID='append_to_database' AIRFLOW_CTX_EXECUTION_DATE='2025-01-16T06:57:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-16T06:57:00+00:00'
+[2025-01-16T06:58:04.406+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-16T06:58:04.472+0000] {logging_mixin.py:190} INFO - Kết nối thành công!
+[2025-01-16T06:58:04.473+0000] {logging_mixin.py:190} INFO - <class 'str'>
+[2025-01-16T06:58:04.474+0000] {logging_mixin.py:190} INFO - [['TCB', 25350, 22050, 23700, 'STOCK', 'HSX', '', 7045021622, 'STOCK', 8424683, 'Ngân hàng Thương mại Cổ phần Kỹ thương Việt Nam', 23700, '', '2025-01-16', 23750, 4000, 4127100, 98325, 23824.23493494221, 23950, 23700, 's', 0, 0, 0, 1590552461, 98325.06499999997, 41271, 23700, 23750, 292900, 23700, 271900, 23650, 195100, 23800, 147100, 23850, 245100, 23900, 314600, '2025-01-16 06:58:02']]
+[2025-01-16T06:58:04.475+0000] {logging_mixin.py:190} INFO - <class 'list'>
+[2025-01-16T06:58:04.476+0000] {logging_mixin.py:190} INFO - [['TCB', 25350, 22050, 23700, 'STOCK', 'HSX', '', 7045021622, 'STOCK', 8424683, 'Ngân hàng Thương mại Cổ phần Kỹ thương Việt Nam', 23700, '', '2025-01-16', 23750, 4000, 4127100, 98325, 23824.23493494221, 23950, 23700, 's', 0, 0, 0, 1590552461, 98325.06499999997, 41271, 23700, 23750, 292900, 23700, 271900, 23650, 195100, 23800, 147100, 23850, 245100, 23900, 314600, '2025-01-16 06:58:02']]
+[2025-01-16T06:58:04.484+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-16T06:58:04.491+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-16T06:58:04.492+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=stock_information, task_id=append_to_database, run_id=scheduled__2025-01-16T06:57:00+00:00, execution_date=20250116T065700, start_date=20250116T065804, end_date=20250116T065804
+[2025-01-16T06:58:04.520+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-16T06:58:04.534+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-16T06:58:04.538+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

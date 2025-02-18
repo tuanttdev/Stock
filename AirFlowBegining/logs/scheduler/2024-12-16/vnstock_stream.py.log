@@ -1,0 +1,52 @@
+[2024-12-16T16:16:55.331+0000] {processor.py:186} INFO - Started process (PID=179) to work on /opt/airflow/dags/vnstock_stream.py
+[2024-12-16T16:16:55.334+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/vnstock_stream.py for tasks to queue
+[2024-12-16T16:16:55.339+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:16:55.339+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/vnstock_stream.py
+[2024-12-16T16:16:55.370+0000] {logging_mixin.py:190} INFO - 
+    Khi tiếp tục sử dụng Vnstock3, bạn xác nhận rằng bạn đã đọc, hiểu và đồng ý với Chính sách quyền riêng tư và Điều khoản, điều kiện về giấy phép sử dụng Vnstock3.
+
+    Chi tiết:
+
+    - Giấy phép sử dụng phần mềm: https://vnstocks.com/docs/tai-lieu/giay-phep-su-dung
+    - Chính sách quyền riêng tư: https://vnstocks.com/docs/tai-lieu/chinh-sach-quyen-rieng-tu
+    
+[2024-12-16T16:16:57.567+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:16:57.567+0000] {font_manager.py:1584} INFO - generated new fontManager
+[2024-12-16T16:16:57.809+0000] {processor.py:925} INFO - DAG(s) 'stock_information' retrieved from /opt/airflow/dags/vnstock_stream.py
+[2024-12-16T16:16:57.907+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:16:57.906+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:stock_information
+[2024-12-16T16:16:57.925+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:16:57.924+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:stock_information
+[2024-12-16T16:16:57.936+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:16:57.936+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:stock_information
+[2024-12-16T16:16:57.951+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:16:57.951+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:stock_information
+[2024-12-16T16:16:57.959+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:16:57.959+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:stock_information
+[2024-12-16T16:16:57.969+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:16:57.969+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:stock_information
+[2024-12-16T16:16:57.977+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:16:57.977+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:stock_information
+[2024-12-16T16:16:57.978+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:16:57.978+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T16:16:57.993+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:16:57.993+0000] {dag.py:3262} INFO - Creating ORM DAG for stock_information
+[2024-12-16T16:16:58.007+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:16:58.007+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_information to 2024-12-14 17:00:00+00:00, run_after=2024-12-15 17:00:00+00:00
+[2024-12-16T16:16:58.039+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/vnstock_stream.py took 2.714 seconds
+[2024-12-16T16:17:28.229+0000] {processor.py:186} INFO - Started process (PID=198) to work on /opt/airflow/dags/vnstock_stream.py
+[2024-12-16T16:17:28.230+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/vnstock_stream.py for tasks to queue
+[2024-12-16T16:17:28.233+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:17:28.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/vnstock_stream.py
+[2024-12-16T16:17:29.297+0000] {processor.py:925} INFO - DAG(s) 'stock_information' retrieved from /opt/airflow/dags/vnstock_stream.py
+[2024-12-16T16:17:29.317+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:17:29.316+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T16:17:29.337+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:17:29.337+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_information to 2024-12-14 17:00:00+00:00, run_after=2024-12-15 17:00:00+00:00
+[2024-12-16T16:17:29.357+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/vnstock_stream.py took 1.132 seconds
+[2024-12-16T16:17:59.517+0000] {processor.py:186} INFO - Started process (PID=209) to work on /opt/airflow/dags/vnstock_stream.py
+[2024-12-16T16:17:59.517+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/vnstock_stream.py for tasks to queue
+[2024-12-16T16:17:59.519+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:17:59.519+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/vnstock_stream.py
+[2024-12-16T16:18:00.608+0000] {processor.py:925} INFO - DAG(s) 'stock_information' retrieved from /opt/airflow/dags/vnstock_stream.py
+[2024-12-16T16:18:00.630+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:18:00.629+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T16:18:00.650+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:18:00.650+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_information to 2024-12-14 17:00:00+00:00, run_after=2024-12-15 17:00:00+00:00
+[2024-12-16T16:18:00.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/vnstock_stream.py took 1.160 seconds
+[2024-12-16T16:18:31.001+0000] {processor.py:186} INFO - Started process (PID=220) to work on /opt/airflow/dags/vnstock_stream.py
+[2024-12-16T16:18:31.001+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/vnstock_stream.py for tasks to queue
+[2024-12-16T16:18:31.004+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:18:31.003+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/vnstock_stream.py
+[2024-12-16T16:18:32.183+0000] {processor.py:925} INFO - DAG(s) 'stock_information' retrieved from /opt/airflow/dags/vnstock_stream.py
+[2024-12-16T16:18:32.203+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:18:32.202+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T16:18:32.225+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:18:32.225+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_information to 2024-12-14 17:00:00+00:00, run_after=2024-12-15 17:00:00+00:00
+[2024-12-16T16:18:32.246+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/vnstock_stream.py took 1.249 seconds
+[2024-12-16T16:19:02.370+0000] {processor.py:186} INFO - Started process (PID=231) to work on /opt/airflow/dags/vnstock_stream.py
+[2024-12-16T16:19:02.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/vnstock_stream.py for tasks to queue
+[2024-12-16T16:19:02.372+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:19:02.372+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/vnstock_stream.py
+[2024-12-16T16:19:03.441+0000] {processor.py:925} INFO - DAG(s) 'stock_information' retrieved from /opt/airflow/dags/vnstock_stream.py
+[2024-12-16T16:19:03.460+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:19:03.459+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T16:19:03.477+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:19:03.477+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_information to 2024-12-14 17:00:00+00:00, run_after=2024-12-15 17:00:00+00:00
+[2024-12-16T16:19:03.494+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/vnstock_stream.py took 1.129 seconds
