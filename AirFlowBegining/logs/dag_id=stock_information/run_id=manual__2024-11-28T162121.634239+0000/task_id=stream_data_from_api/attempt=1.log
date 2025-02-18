@@ -14,5 +14,5 @@
 [2024-11-28T16:22:24.293+0000] {process_utils.py:132} INFO - Sending 15 to group 295. PIDs of all processes in the group: [295]
 [2024-11-28T16:22:24.294+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 295
 [2024-11-28T16:22:24.295+0000] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.
-[2024-11-28T16:22:24.317+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-28T16:22:24.317+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs cccc
 [2024-11-28T16:22:24.348+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=295, status='terminated', exitcode=0, started='16:21:23') (295) terminated with exit code 0
